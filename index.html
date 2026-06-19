@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVA Nails | Premium Nail Art Service zu Hause — Hamburg Altona</title>
+  <meta name="description" content="NOVA Nails: Professioneller mobiler Nail Art Service in Hamburg Altona und Umgebung (10 km). Maniküre, Gel, Shellac, Nail Art & Russische Pediküre direkt bei Ihnen zu Hause. Jetzt Termin buchen!">
+  <meta name="keywords" content="Nail Art Hamburg, mobile Maniküre Altona, Gelnägel zu Hause, Shellac Hamburg, Russische Pediküre, Nageldesign, NOVA Nails, Nagelstudio mobil">
+  <meta property="og:title" content="NOVA Nails | Premium Nail Art zu Hause">
+  <meta property="og:description" content="Professioneller mobiler Nail Art Service in Hamburg Altona. Maniküre, Gel, Shellac, Nail Art & Russische Pediküre bei Ihnen zu Hause.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__icon">✦</span>
+        <span class="logo__name">NOVA<span class="logo__accent">Nails</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link">Start</a></li>
+          <li><a href="#services" class="nav__link">Leistungen</a></li>
+          <li><a href="#vorteile" class="nav__link">Vorteile</a></li>
+          <li><a href="#galerie" class="nav__link">Galerie</a></li>
+          <li><a href="#bewertungen" class="nav__link">Bewertungen</a></li>
+          <li><a href="#kontakt" class="nav__link">Kontakt</a></li>
+        </ul>
+      </nav>
+      <a href="#buchen" class="btn btn--primary header__cta">Termin buchen</a>
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul class="mobile-nav__list">
+      <li><a href="#home" class="mobile-nav__link">Start</a></li>
+      <li><a href="#services" class="mobile-nav__link">Leistungen</a></li>
+      <li><a href="#vorteile" class="mobile-nav__link">Vorteile</a></li>
+      <li><a href="#galerie" class="mobile-nav__link">Galerie</a></li>
+      <li><a href="#bewertungen" class="mobile-nav__link">Bewertungen</a></li>
+      <li><a href="#kontakt" class="mobile-nav__link">Kontakt</a></li>
+      <li><a href="#buchen" class="mobile-nav__link mobile-nav__cta">Termin buchen</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__particles" id="particles"></div>
+      <div class="container hero__content">
+        <div class="hero__badge fade-in">
+          <span class="hero__badge-dot"></span>
+          Mobiler Premium Service — Hamburg Altona
+        </div>
+        <h1 class="hero__title fade-in">
+          <span class="hero__title-line">Dein perfektes</span>
+          <span class="hero__title-accent">Nail Art Erlebnis</span>
+          <span class="hero__title-line">direkt zu Hause</span>
+        </h1>
+        <p class="hero__subtitle fade-in">
+          Professionelle Maniküre, Gel, Shellac, kreatives Nail Art &amp; Russische Pediküre —
+          wir kommen zu dir. Premium-Qualität, faire Preise.
+        </p>
+        <div class="hero__actions fade-in">
+          <a href="#buchen" class="btn btn--primary btn--lg btn--glow">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+            Jetzt Termin buchen
+          </a>
+          <a href="https://wa.me/4915731292474" class="btn btn--glass btn--lg" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.716-1.244A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.7-6.413-1.905l-.346-.217-3.592.948.963-3.519-.238-.378A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+        <div class="hero__trust fade-in">
+          <div class="hero__trust-item">
+            <span class="hero__trust-icon">★</span>
+            <span>5.0 Bewertung</span>
+          </div>
+          <div class="hero__trust-divider"></div>
+          <div class="hero__trust-item">
+            <span class="hero__trust-icon">♡</span>
+            <span>500+ zufriedene Kundinnen</span>
+          </div>
+          <div class="hero__trust-divider"></div>
+          <div class="hero__trust-item">
+            <span class="hero__trust-icon">◎</span>
+            <span>Hamburg &amp; Umgebung</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <span>Mehr entdecken</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">✦ Unsere Leistungen</span>
+          <h2 class="section__title">Premium Nail Art<br><em>für jeden Anlass</em></h2>
+          <p class="section__desc">Von klassischer Maniküre bis zum kreativen Nail Art — wir bieten dir alles auf höchstem Niveau, bequem bei dir zu Hause.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <div class="service-card fade-in">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="48" rx="14" ry="6" fill="currentColor" opacity=".12"/><path d="M28 12c0-2.2 1.8-4 4-4s4 1.8 4 4v24c0 6.6-3.6 12-8 12s-8-5.4-8-12c0-4.4 3.6-8 8-8z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M36 36c4.4 0 8 3.6 8 8 0 6.6-3.6 12-8 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 3"/></svg>
+            </div>
+            <h3 class="service-card__title">Klassische Maniküre</h3>
+            <p class="service-card__desc">Nagelpflege, Formen, Kutikula-Pflege und Lack deiner Wahl für gepflegte Hände.</p>
+            <div class="service-card__meta">
+              <span class="service-card__duration">⏱ ca. 45 Min.</span>
+              <span class="service-card__price">ab 29 €</span>
+            </div>
+          </div>
+
+          <div class="service-card service-card--featured fade-in">
+            <div class="service-card__badge">Beliebt</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="50" rx="16" ry="5" fill="currentColor" opacity=".12"/><path d="M20 16l4-8h16l4 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><rect x="18" y="16" width="28" height="32" rx="8" stroke="currentColor" stroke-width="2.5"/><path d="M26 28h12M26 34h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".5"/><circle cx="32" cy="22" r="2" fill="currentColor"/></svg>
+            </div>
+            <h3 class="service-card__title">Gel / Shellac</h3>
+            <p class="service-card__desc">Langanhaltende Farbe mit UV-Gel oder Shellac. Bis zu 3 Wochen perfekter Glanz ohne Absplittern.</p>
+            <div class="service-card__meta">
+              <span class="service-card__duration">⏱ ca. 60 Min.</span>
+              <span class="service-card__price">ab 39 €</span>
+            </div>
+          </div>
+
+          <div class="service-card fade-in">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="50" rx="14" ry="5" fill="currentColor" opacity=".12"/><path d="M18 32c0-7.7 6.3-14 14-14s14 6.3 14 14v4c0 7.7-6.3 14-14 14s-14-6.3-14-14v-4z" stroke="currentColor" stroke-width="2.5"/><path d="M26 28l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="14" r="3" fill="currentColor" opacity=".3"/></svg>
+            </div>
+            <h3 class="service-card__title">Nail Art &amp; Design</h3>
+            <p class="service-card__desc">Kreative Designs, Strasssteine, Ombré, French und individuelle Motive nach deinen Wünschen.</p>
+            <div class="service-card__meta">
+              <span class="service-card__duration">⏱ ca. 90 Min.</span>
+              <span class="service-card__price">ab 49 €</span>
+            </div>
+          </div>
+
+          <div class="service-card fade-in">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="52" rx="14" ry="4" fill="currentColor" opacity=".12"/><path d="M24 44c-3.3-2-6-6.5-6-12 0-7.7 6.3-14 14-14s14 6.3 14 14c0 5.5-2.7 10-6 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M28 36v8c0 2.2 1.8 4 4 4s4-1.8 4-4v-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="32" cy="28" r="4" stroke="currentColor" stroke-width="2" fill="currentColor" opacity=".15"/></svg>
+            </div>
+            <h3 class="service-card__title">Russische Pediküre</h3>
+            <p class="service-card__desc">Die präzise Hardware-Technik für samtweiche Füße und perfekt gepflegte Zehennägel.</p>
+            <div class="service-card__meta">
+              <span class="service-card__duration">⏱ ca. 60 Min.</span>
+              <span class="service-card__price">ab 45 €</span>
+            </div>
+          </div>
+
+          <div class="service-card fade-in">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="52" rx="14" ry="4" fill="currentColor" opacity=".12"/><path d="M20 20h24v24a8 8 0 01-8 8h-8a8 8 0 01-8-8V20z" stroke="currentColor" stroke-width="2.5"/><path d="M20 20c0-4.4 3.6-8 8-8h8c4.4 0 8 3.6 8 8" stroke="currentColor" stroke-width="2.5"/><path d="M28 28h8M28 34h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".4"/></svg>
+            </div>
+            <h3 class="service-card__title">Gelnägel Neumodellage</h3>
+            <p class="service-card__desc">Kompletter Aufbau mit Gel oder Acryl für natürlich wirkende Nagelverlängerung.</p>
+            <div class="service-card__meta">
+              <span class="service-card__duration">⏱ ca. 90 Min.</span>
+              <span class="service-card__price">ab 55 €</span>
+            </div>
+          </div>
+
+          <div class="service-card fade-in">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 64 64" fill="none"><ellipse cx="32" cy="52" rx="14" ry="4" fill="currentColor" opacity=".12"/><path d="M22 18l20 0M20 26h24M22 34h20M24 42h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="44" cy="18" r="5" stroke="currentColor" stroke-width="2" fill="currentColor" opacity=".15"/></svg>
+            </div>
+            <h3 class="service-card__title">Auffüllung</h3>
+            <p class="service-card__desc">Regelmäßige Auffüllung deiner Gel- oder Acrylnägel für dauerhaft perfektes Aussehen.</p>
+            <div class="service-card__meta">
+              <span class="service-card__duration">⏱ ca. 60 Min.</span>
+              <span class="service-card__price">ab 35 €</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- VORTEILE / WHY US -->
+    <section class="section vorteile" id="vorteile">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">✦ Warum NOVA Nails</span>
+          <h2 class="section__title">Premium Service,<br><em>direkt zu dir</em></h2>
+        </div>
+
+        <div class="vorteile__grid">
+          <div class="vorteil fade-in">
+            <div class="vorteil__number">01</div>
+            <div class="vorteil__content">
+              <h3>Zu Hause entspannen</h3>
+              <p>Kein Anfahrtsweg, kein Warten. Wir kommen zu dir und bringen das komplette Studio mit — bequem auf deinem Sofa.</p>
+            </div>
+          </div>
+          <div class="vorteil fade-in">
+            <div class="vorteil__number">02</div>
+            <div class="vorteil__content">
+              <h3>Premium Produkte</h3>
+              <p>Wir arbeiten nur mit hochwertigen Marken und sterilen Werkzeugen. Deine Gesundheit und Sicherheit stehen an erster Stelle.</p>
+            </div>
+          </div>
+          <div class="vorteil fade-in">
+            <div class="vorteil__number">03</div>
+            <div class="vorteil__content">
+              <h3>Faire Preise</h3>
+              <p>Studio-Qualität ohne Studio-Zuschlag. Unsere mobilen Preise sind transparent und fair — keine versteckten Kosten.</p>
+            </div>
+          </div>
+          <div class="vorteil fade-in">
+            <div class="vorteil__number">04</div>
+            <div class="vorteil__content">
+              <h3>Flexibel &amp; Pünktlich</h3>
+              <p>Termine auch abends und am Wochenende. Wir sind pünktlich und passen uns deinem Zeitplan an.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIE -->
+    <section class="section galerie" id="galerie">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">✦ Unsere Arbeiten</span>
+          <h2 class="section__title">Galerie der<br><em>Inspirationen</em></h2>
+          <p class="section__desc">Einige unserer beliebtesten Designs — lass dich inspirieren und finde deinen Look.</p>
+        </div>
+        <div class="galerie__grid">
+          <div class="galerie__item fade-in">
+            <div class="galerie__placeholder">
+              <span>French Elegance</span>
+            </div>
+          </div>
+          <div class="galerie__item galerie__item--tall fade-in">
+            <div class="galerie__placeholder">
+              <span>Ombré Glam</span>
+            </div>
+          </div>
+          <div class="galerie__item fade-in">
+            <div class="galerie__placeholder">
+              <span>Minimalist Chic</span>
+            </div>
+          </div>
+          <div class="galerie__item fade-in">
+            <div class="galerie__placeholder">
+              <span>Crystal Art</span>
+            </div>
+          </div>
+          <div class="galerie__item galerie__item--wide fade-in">
+            <div class="galerie__placeholder">
+              <span>Seasonal Collection</span>
+            </div>
+          </div>
+          <div class="galerie__item fade-in">
+            <div class="galerie__placeholder">
+              <span>Natural Beauty</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEWERTUNGEN -->
+    <section class="section bewertungen" id="bewertungen">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">✦ Kundenstimmen</span>
+          <h2 class="section__title">Was unsere Kundinnen<br><em>über uns sagen</em></h2>
+        </div>
+        <div class="bewertungen__grid">
+          <div class="bewertung fade-in">
+            <div class="bewertung__stars">★★★★★</div>
+            <p class="bewertung__text">"Absolut traumhaft! NOVA Nails hat meine Gelnägel zu Hause gemacht — das Ergebnis ist besser als in jedem Studio. Super bequem und professionell!"</p>
+            <div class="bewertung__author">
+              <div class="bewertung__avatar">L</div>
+              <div>
+                <strong>Laura M.</strong>
+                <span>Hamburg-Altona</span>
+              </div>
+            </div>
+          </div>
+          <div class="bewertung fade-in">
+            <div class="bewertung__stars">★★★★★</div>
+            <p class="bewertung__text">"Endlich ein mobiler Nagelservice, der hält was er verspricht! Die Russische Pediküre war einfach perfekt. Meine Füße haben sich noch nie so gut angefühlt."</p>
+            <div class="bewertung__author">
+              <div class="bewertung__avatar">S</div>
+              <div>
+                <strong>Sophie K.</strong>
+                <span>Bahrenfeld</span>
+              </div>
+            </div>
+          </div>
+          <div class="bewertung fade-in">
+            <div class="bewertung__stars">★★★★★</div>
+            <p class="bewertung__text">"Ich liebe mein Nail Art! So kreativ und detailreich — genau wie ich es mir vorgestellt habe. NOVA Nails ist meine neue Go-To-Adresse. Faire Preise, top Ergebnis!"</p>
+            <div class="bewertung__author">
+              <div class="bewertung__avatar">M</div>
+              <div>
+                <strong>Mia R.</strong>
+                <span>Ottensen</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE AREA -->
+    <section class="section area">
+      <div class="container">
+        <div class="area__inner fade-in">
+          <div class="area__content">
+            <span class="section__tag">✦ Einsatzgebiet</span>
+            <h2 class="area__title">Wir kommen zu dir —<br><em>im Umkreis von 10 km</em></h2>
+            <p>Unser mobiler Service deckt Hamburg-Altona und alle umliegenden Stadtteile im Umkreis von 10 km ab.</p>
+            <div class="area__locations">
+              <span class="area__tag">Altona</span>
+              <span class="area__tag">Ottensen</span>
+              <span class="area__tag">Bahrenfeld</span>
+              <span class="area__tag">Blankenese</span>
+              <span class="area__tag">Rissen</span>
+              <span class="area__tag">Lurup</span>
+              <span class="area__tag">Osdorf</span>
+              <span class="area__tag">Eimsbüttel</span>
+              <span class="area__tag">Stellingen</span>
+              <span class="area__tag">Schenefeld</span>
+            </div>
+          </div>
+          <div class="area__map">
+            <div class="area__map-placeholder">
+              <div class="area__pin">
+                <span>📍</span>
+                <strong>NOVA Nails</strong>
+                <small>22559 Hamburg-Altona</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BUCHUNG / CONTACT FORM -->
+    <section class="section buchen" id="buchen">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">✦ Termin buchen</span>
+          <h2 class="section__title">Bereit für deine<br><em>perfekten Nails?</em></h2>
+          <p class="section__desc">Fülle das Formular aus und wir melden uns innerhalb weniger Stunden per WhatsApp bei dir.</p>
+        </div>
+
+        <div class="buchen__wrapper">
+          <form class="buchen__form" id="buchungForm">
+            <div class="form__group">
+              <label for="name">Dein Name *</label>
+              <input type="text" id="name" name="name" required placeholder="z.B. Laura Müller">
+            </div>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="telefon">Telefon / WhatsApp *</label>
+                <input type="tel" id="telefon" name="telefon" required placeholder="+49 ...">
+              </div>
+              <div class="form__group">
+                <label for="stadtteil">Stadtteil *</label>
+                <input type="text" id="stadtteil" name="stadtteil" required placeholder="z.B. Ottensen">
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="service">Gewünschte Leistung *</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Bitte wählen…</option>
+                <option value="Klassische Maniküre — ab 29€">Klassische Maniküre — ab 29 €</option>
+                <option value="Gel / Shellac — ab 39€">Gel / Shellac — ab 39 €</option>
+                <option value="Nail Art & Design — ab 49€">Nail Art &amp; Design — ab 49 €</option>
+                <option value="Russische Pediküre — ab 45€">Russische Pediküre — ab 45 €</option>
+                <option value="Gelnägel Neumodellage — ab 55€">Gelnägel Neumodellage — ab 55 €</option>
+                <option value="Auffüllung — ab 35€">Auffüllung — ab 35 €</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="wunschtermin">Wunschtermin</label>
+              <input type="text" id="wunschtermin" name="wunschtermin" placeholder="z.B. Samstag Nachmittag">
+            </div>
+            <div class="form__group">
+              <label for="nachricht">Nachricht (optional)</label>
+              <textarea id="nachricht" name="nachricht" rows="3" placeholder="Besondere Wünsche, Referenzbild, etc."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg btn--full btn--glow">
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.716-1.244A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.7-6.413-1.905l-.346-.217-3.592.948.963-3.519-.238-.378A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              Über WhatsApp anfragen
+            </button>
+          </form>
+          <div class="buchen__info fade-in">
+            <div class="buchen__info-card">
+              <h3>So funktioniert's</h3>
+              <div class="buchen__step">
+                <div class="buchen__step-num">1</div>
+                <div>
+                  <strong>Anfrage senden</strong>
+                  <p>Fülle das Formular aus oder schreib uns direkt auf WhatsApp.</p>
+                </div>
+              </div>
+              <div class="buchen__step">
+                <div class="buchen__step-num">2</div>
+                <div>
+                  <strong>Termin bestätigen</strong>
+                  <p>Wir melden uns und finden den perfekten Termin für dich.</p>
+                </div>
+              </div>
+              <div class="buchen__step">
+                <div class="buchen__step-num">3</div>
+                <div>
+                  <strong>Wir kommen zu dir</strong>
+                  <p>Lehn dich zurück — wir bringen alles mit und verwandeln deine Nails.</p>
+                </div>
+              </div>
+            </div>
+            <div class="buchen__contact-card">
+              <h4>Direkt erreichen</h4>
+              <a href="https://wa.me/4915731292474" class="buchen__wa-link" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.716-1.244A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                +49 1573 1292474
+              </a>
+              <p>Mo–Sa: 9:00 – 20:00 Uhr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section kontakt" id="kontakt">
+      <div class="container">
+        <div class="kontakt__inner fade-in">
+          <div class="kontakt__content">
+            <span class="section__tag">✦ Kontakt</span>
+            <h2 class="kontakt__title">NOVA Nails</h2>
+            <p>Mobiler Premium Nail Art Service<br>22559 Hamburg-Altona &amp; Umgebung (10 km)</p>
+            <div class="kontakt__details">
+              <a href="https://wa.me/4915731292474" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.716-1.244A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+                +49 1573 1292474
+              </a>
+            </div>
+          </div>
+          <div class="kontakt__brand">
+            <div class="kontakt__logo">
+              <span class="kontakt__logo-icon">✦</span>
+              <span class="kontakt__logo-text">NOVA<span>Nails</span></span>
+            </div>
+            <p class="kontakt__slogan">Dein Nail Art Erlebnis, direkt zu Hause.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2024 NOVA Nails — Alle Rechte vorbehalten.</p>
+      <div class="footer__links">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FAB -->
+  <a href="https://wa.me/4915731292474?text=Hallo%20NOVA%20Nails!%20Ich%20möchte%20gerne%20einen%20Termin%20buchen." class="wa-fab" target="_blank" rel="noopener" aria-label="WhatsApp Kontakt">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.638l4.716-1.244A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.7-6.413-1.905l-.346-.217-3.592.948.963-3.519-.238-.378A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
